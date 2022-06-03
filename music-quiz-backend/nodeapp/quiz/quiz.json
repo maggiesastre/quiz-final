@@ -1,0 +1,100 @@
+[
+  {
+    "type": "Music",
+    "name": "Music",
+    "questions": [
+      {
+        "question": "Which of these artists was the first to win a Grammy?",
+        "options": [
+          "Billie Eilish",
+          "My Chemical Romance",
+          "Green Day",
+          "Michael Jackson"
+        ],
+        "answer": "Michael Jackson"
+      },
+      {
+        "question": "How many basic musical notes are there?",
+        "options": ["One", "Four", "Seven", "Nine"],
+        "answer": "Seven"
+      },
+      {
+        "question": "Which was the first song of Coldplay?",
+        "options": [
+          "Ode to deodorant",
+          "Viva la vida",
+          "Clocks",
+          "Adventure of a Lifetime"
+        ],
+        "answer": "Ode to deodorant"
+      },
+      {
+        "question": "What's the name of the principal singer of the band Red Hot Chili Peppers?",
+        "options": [
+          "Chacho Ramos",
+          "Anthony Kiedis",
+          "Dave Navarro",
+          "Emiliano Laino"
+        ],
+        "answer": "Anthony Kiedis"
+      }
+    ]
+  },
+  {
+    "type": "LoL",
+    "name": "League of Legends",
+    "questions": [
+      {
+        "question": "Which video game company developed the game League of Legends?",
+        "options": ["Activision", "Ubisoft", "Riot Games", "Capcom"],
+        "answer": "Riot Games"
+      },
+      {
+        "question": "How many lanes are there in the Summoner's Rift map of the game League of Legends?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Three"
+      },
+      {
+        "question": "Which tribe does League of Legends champion Leona belong to?",
+        "options": ["Noxus", "Demacia", "Freljord", "Solari"],
+        "answer": "Solari"
+      },
+      {
+        "question": "How many original champions did the game League of Legends have when it was released in 2009?",
+        "options": ["10", "25", "30", "40"],
+        "answer": "40"
+      }
+    ]
+  },
+  {
+    "type": "Series",
+    "name": "Series",
+    "questions": [
+      {
+        "question": "What is the longest serie ever?",
+        "options": [
+          "Gunsmoke",
+          "Law & Order: Special Victims Unit",
+          "The Simpsons",
+          "Family Guy"
+        ],
+        "answer": "The Simpsons"
+      },
+      {
+        "question": "What is the longest anime ever?",
+        "options": ["Sazae-San", "Doraemon", "One Piece", "Naruto"],
+        "answer": "Sazae-San"
+      },
+      {
+        "question": "What is the smallest child of the simpsons family?",
+        "options": ["Lisa", "Bart", "Marge", "Maggie"],
+        "answer": "Maggie"
+      },
+      {
+        "question": "Which character in Futurama has only one eye?",
+        "options": ["Fry", "Leela", "Nibler", "Doctor Zoidberg"],
+        "answer": "Leela"
+      }
+    ]
+  }
+]

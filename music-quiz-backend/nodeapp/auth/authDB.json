@@ -1,0 +1,19 @@
+[
+     {
+        "email" : "maglopez@pwc.com",
+        "username":"Maggie Lopez",
+        "password": "hola123"
+    },
+     {
+        "email" : "paumarangoni@pwc.com",
+        "username":"Paula Marangoni",
+        "password": "pau123"
+    },
+    {
+        "email" : "xio@pwc.com",
+        "username":"Xio Enciso",
+        "password": "laxiodelcap"
+    }
+]
+    
+       

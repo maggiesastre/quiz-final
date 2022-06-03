@@ -1,0 +1,15 @@
+<div class="col-xs-12 resultDiv">
+  <div class="message">
+    <h1 class="completed">Your quiz has been completed, thanks!</h1>
+    <button class="ranking" (click)="onSubmit()">
+      Want to see your result? Click here!
+    </button>
+  </div>
+  <div class="result" *ngIf="ranking">
+    <h3 class="rating">Your result is: {{ ranking.rating }}</h3>
+    <h3 class="correctAnswers">
+      Correct answers: {{ ranking.correctAnswers }}
+    </h3>
+    <h3 class="wrongAnswers">Wrong answers: {{ ranking.wrongAnswers }}</h3>
+  </div>
+</div>

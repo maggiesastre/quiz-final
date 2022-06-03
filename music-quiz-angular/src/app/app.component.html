@@ -1,0 +1,21 @@
+<header>
+  <div class="headerTitle">
+    <img src="../assets/img/header.png" class="image" />
+    <h3 class="title">Maggie's Final Assessment</h3>
+  </div>
+  <div class="usernameDiv">
+    <h5 class="username">{{ user?.username }}</h5>
+    <button
+      class="logoutButton"
+      type="Button"
+      (click)="onLogout()"
+      *ngIf="user"
+    >
+      Logout
+    </button>
+  </div>
+</header>
+<p-toast position="top-right" key="toast" [baseZIndex]="9999"></p-toast>
+<div class="router-outlet">
+  <router-outlet></router-outlet>
+</div>

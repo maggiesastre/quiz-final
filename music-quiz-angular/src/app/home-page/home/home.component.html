@@ -1,0 +1,13 @@
+<div class="home">
+  <div class="col-xs-12 homeBox">
+    <label for="quiz" class="quizLabel">Choose a quiz:</label>
+    <select name="quiz" id="quiz" [(ngModel)]="selectedQuiz" class="quizSelect">
+      <option [value]="quiz.type" *ngFor="let quiz of quizList">
+        {{ quiz.name }}
+      </option>
+    </select>
+    <button class="submitButton" type="button" (click)="onSubmit()">
+      Submit
+    </button>
+  </div>
+</div>

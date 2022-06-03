@@ -1,0 +1,41 @@
+<div class="col-xs-12 quizBox">
+  <!-- <ul>
+         <li *ngFor="let quiz of selectedQuiz">
+            {{quiz.name}}
+         </li>
+         <li *ngFor="let quiz of selectedQuiz">
+            {{quiz.question}}
+         </li>
+        <li *ngFor="let options of selectedQuiz.options">
+            {{options}}
+         </li> 
+     </ul> -->
+  <form [formGroup]="form" *ngIf="selectedQuiz" class="container">
+    <div class="quizDiv row justify-content-center">
+      <h2 class="quizName">
+        {{ selectedQuiz.name }}
+      </h2>
+    </div>
+
+    <div *ngFor="let question of selectedQuiz.questions; index as q">
+      <h4 class="quizQuestion">{{ question.question }}</h4>
+      <div *ngFor="let option of question.options; index as i">
+        <input
+          type="radio"
+          formControlName="{{ q }}"
+          id="option{{ i }}{{ q }}"
+          value="{{ option }}"
+        />
+        <label for="option{{ i }}{{ q }}" class="radioText">{{ option }}</label>
+      </div>
+    </div>
+  </form>
+  <button
+    class="submitButton"
+    type="button"
+    (click)="onSubmit()"
+    [disabled]="form && form.invalid"
+  >
+    Submit
+  </button>
+</div>

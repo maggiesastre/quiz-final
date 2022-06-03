@@ -1,0 +1,45 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.homeBox{
+    /* position: absolute; */
+    /* left: 50vw;
+    top:50vh; */
+    /* margin-left: auto; */
+    /* margin-top: auto; */
+    display: flex;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quizLabel{
+    margin:10px;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 0 0 3px #3dbbb3;
+}
+
+.quizSelect{
+    margin:10px;
+
+}
+
+.submitButton{
+    
+    color: black;
+    border:1px solid #75C6C1;
+    background-color: #75C6C1;
+    border-radius: 2px;
+    margin: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
